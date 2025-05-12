@@ -7,7 +7,7 @@ interface Options {
 }
 
 export function useVisibility(
-  ref: React.RefObject<HTMLElement>,
+  ref: React.RefObject<HTMLElement | null>,
   options: Options = {}
 ) {
   const { threshold = 0.1, once = false, rootMargin = "0px" } = options;
