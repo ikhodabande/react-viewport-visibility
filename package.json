@@ -1,6 +1,6 @@
 {
   "name": "react-viewport-visibility",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tiny React hook and component to detect viewport visibility",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
